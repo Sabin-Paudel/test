@@ -9,7 +9,7 @@ const toggleNavbar = () => {
 
 mobile_nav.addEventListener("click", () => toggleNavbar());
 
-//Typing text
+//js pre-script
 var typed = new Typed('#change', {
   strings: [' Developer', 'Designer', 'Youtuber', 'Editor'],
   typeSpeed: 100,
@@ -35,7 +35,6 @@ let isDarkMode = false;
 function toggleDarkMode() {
   isDarkMode = !isDarkMode; 
   if (isDarkMode) {
-    // Dark mode styles
     darkModeButton.style.display="none";
     lightModeButton.style.display="block";
     body.style.backgroundColor = "#000";
